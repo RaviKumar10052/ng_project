@@ -1,0 +1,76 @@
+.eml_wrappr .eml_hd{margin-bottom: 10px; clear: both; float: left;}
+.eml_wrappr .eml_hd h2{margin:0px; font-size: 20px; color:#083d77}
+.eml_wrappr .eml_cont{width: 100%;  margin-bottom: 20px;  float: left;  }
+.eml_wrappr .eml_cont .eml_box{width: calc(50% - 10px); margin-right: 10px;   float: left;border:1px solid #ddd;}
+.eml_wrappr .eml_cont .eml_box label{background: #eee; padding: 7px 10px; margin-bottom: 0px; width: 120px;  }
+.eml_wrappr .eml_cont .eml_input{ border:none; outline:none; padding: 7px 10px; width:calc(100% - 120px); background: #fff;}
+.eml_wrappr .eml_cont .eml_box_r{width: calc(50% - 10px); margin-left: 10px;   float: left;border:1px solid #ddd;}
+.eml_wrappr .eml_cont .eml_box_r label{background: #eee; padding: 7px 10px; margin-bottom: 0px; width: 120px;  }
+.eml_wrappr .eml_cont .eml_box_r .eml_input{ border:none; outline:none; padding: 7px 10px; width:calc(100% - 120px);}
+.eml_wrappr .eml_cont .dob  {width: calc(50% - 10px); margin-left: 10px;   float: left;}
+.eml_wrappr .eml_cont .dob  .mnth_box{width: calc(50% - 10px); margin-right: 10px;   float: left;border:1px solid #ddd;}
+.eml_wrappr .eml_cont .dob label{background: #eee; padding: 7px 10px; margin-bottom: 0px; width: 65px;  }
+.eml_wrappr .eml_cont .mnth{ border:none; outline:none; padding: 7px 10px; width:calc(100% - 65px); background: #fff; }
+.eml_wrappr .eml_cont .day_yrs{margin-left:10px; width: calc(25% - 10px); padding: 7px 10px; outline: none; border:none; border:1px solid #ddd; background: #fff;}
+.savInfoBtn{text-align:right;}
+.savInfoBtn .btn_sav{ background: linear-gradient(169deg, #ff833c 22%, #f30 100%) repeat scroll 0 0 transparent; border:none; outline: none; padding:7px 15px; color:#fff; font-weight: 700; }
+.eml_wrappr .yellBox{border: 1px solid #ffdfa8;background: #fff9e5;padding: 10px;font-size: 12px;color: #7c818d; clear: both; margin-bottom: 15px;}
+.eml_wrappr .yellBox p{margin: 0px; text-align:justify;}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .eml_wrappr .eml_hd h2{font-size: 15px; font-weight: 700; float: left;}
+    .eml_wrappr .eml_cont{margin-bottom:0px;}
+
+    .eml_wrappr .eml_cont .eml_box{width: 100%; margin-bottom: 10px; }
+    .eml_wrappr .eml_cont .eml_box label{  padding: 7px; font-size: 13px; width:98px;}
+    .eml_wrappr .eml_cont .eml_input{padding: 7px; font-size: 13px; width: calc(100% - 98px);}
+
+    .eml_wrappr .eml_cont .eml_box_r{width: 100%; margin-bottom: 10px; margin-left: 0px }
+    .eml_wrappr .eml_cont .eml_box_r label{padding: 7px; font-size: 13px;width:98px;}
+    .eml_wrappr .eml_cont .eml_box_r .eml_input{ padding: 7px; font-size: 13px;    width: calc(100% - 98px);}
+    .eml_wrappr .eml_cont .dob  {width:100%; margin-left: 10px;   float: left; margin-left: 0px; margin-bottom: 10px;}
+    .eml_wrappr .yellBox p{font-size: 10px;}
+    .savInfoBtn .btn_sav{width: 100%;}
+    .eml_wrappr .eml_cont .day_yrs{font-size: 13px; padding: 7px; margin-left: 5px;width: calc(25% - 5px)}
+    .eml_wrappr .eml_cont .dob  .mnth_box{width: calc(50%); margin-right: 0px;} 
+    .eml_wrappr .eml_cont .dob label{font-size: 13px; padding: 7px; width: 48px;}
+    .eml_wrappr .eml_cont .mnth{font-size: 13px; padding: 7px;width: calc(100% - 48px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

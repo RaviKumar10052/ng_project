@@ -1,0 +1,101 @@
+#footer {background-color: #083d77;float: left;width: 100%;}
+.foot-top {padding: 30px 0 250px 0;float: left;width: 100%;background: url(../../assets/images/foot-graphic.png) bottom center no-repeat;}
+.foot-nav > h3 {color: #fff;font-size: 16px;letter-spacing: 0.5px;padding-bottom: 10px;font-weight: 400;position: relative;margin-bottom: 15px;text-transform: uppercase;font-family: 'Roboto', sans-serif;}
+.foot-nav > h3::after {background: #FF690F;bottom: 0;content: "";height: 2px;left: 0;position: absolute;width: 50px;}
+.foot-nav ul {margin: 0px;padding: 0px;}
+.foot-nav ul > li {display: block;padding: 2px 0;}
+.foot-nav ul > li > a {color: #fff;font-size: 14px;font-family: 'Roboto', sans-serif;}
+.foot-nav span a {font-size: 13px;font-family: 'Open Sans', sans-serif;color: #FF690F;}
+.subscribe-main {background: #041e3b none repeat scroll 0 0;float: left;padding: 15px;width: 100%;margin-top: 20px;}
+.subscribe-main .foot-subscribe-box {float: left;width: 100%;}
+.foot-subtitle {color: #fff;font-size: 14px;font-weight: 400;letter-spacing: 0.5px;font-family: 'Roboto', sans-serif;}
+.subscribe-main .foot-subscribe-box .form_outer {background: #fff}
+.foot-subscribe-box .form_outer .inpt_txt{padding: 7px 10px; width:calc(100% - 100px); border:0px;  }
+.foot-subscribe-box .form_outer .btn_subs{    background: linear-gradient(169deg, #ff833c 22%, #f30 100%) repeat scroll 0 0 transparent; color:#fff; padding: 7px 10px; border:0px; outline:none; width: 100px;} 
+.link_sec_ftr {margin-bottom: 15px;padding-left: 15px;float: left;}
+.link_sec_ftr .scl_logo ul {margin: 0;padding: 0;margin-top: 10px;}
+.link_sec_ftr .scl_logo ul li {list-style: none;float: left;margin-right: 10px;position: relative;}
+.link_sec_ftr .scl_logo ul li a {display: inline-block;background-color: #fff;color: #083d77;border-radius: 15px;height: 30px;width: 30px;transition: ease all .5s;}
+.link_sec_ftr .scl_logo ul li a.fb {background-position: -38px 6px;}
+.link_sec_ftr .scl_logo ul li a.fb:hover {background-color: #3b5998;color: #fff;background-position: -38px -15px;}
+.link_sec_ftr .scl_logo ul li a.tw {background-position: -64px 7px;}
+.link_sec_ftr .scl_logo ul li a.tw:hover {background-color: #1da1f2;color: #fff;background-position: -64px -14px;}
+.link_sec_ftr .scl_logo ul li a.ig {background-position: -145px 7px;}
+.link_sec_ftr .scl_logo ul li a.ig:hover {color: #fff;background-color: #d92e7f;background-position: -145px -15px;}
+.link_sec_ftr .scl_logo ul li a.gp {background-position: -92px 6px;}
+.link_sec_ftr .scl_logo ul li a.gp:hover {background-color: #dd4b39;color: #fff;background-position: -92px -15px;}
+.wrppr_copy_pantr {background: #041e3b;padding: 10px 0px;float: left;width: 100%;border-top: solid 2px #fff;margin-top: -4px;}   
+.wrppr_copy_pantr .copy_bk_pth {text-align: center;margin-top: 5px;color: #fff;}
+.wrppr_copy_pantr .fttr_part ul {margin: 0px;padding: 0px;text-align: center;}
+.wrppr_copy_pantr .fttr_part ul li {list-style: none;display: inline-block;margin: 0px 14px;padding: 1px;background: #fff;border-radius: 2px;}
+.wrppr_copy_pantr .fttr_part ul li a {display: block;background-color: #fff;cursor: auto;}
+.wrppr_copy_pantr .fttr_part ul li a.iata {height: 26px;width: 38px;background-position: -1px -139px;}
+.wrppr_copy_pantr .fttr_part ul li a.arc {height: 26px;width: 48px;background-position: -51px -139px;}
+.wrppr_copy_pantr .fttr_part ul li a.nrtn {height: 26px;width: 48px;background-position: -112px -139px;}
+.wrppr_copy_pantr .fttr_part ul li a.paypal {height: 26px;width: 64px;background-position: -168px -139px;}
+.wrppr_copy_pantr .fttr_part ul li a.visa {height: 26px;width: 41px;background-position: -241px -139px;}
+.wrppr_copy_pantr .fttr_part ul li a.mastercard {height: 26px;width: 49px;background-position: -295px -139px;}
+.wrppr_copy_pantr .fttr_part ul li a.amrcnExprss {height: 26px;width: 49px;background-position: -351px -139px;}
+.wrppr_copy_pantr .fttr_part ul li a.discvr {height: 26px;width: 49px;background-position: -408px -139px;}
+@media only screen and (min-width: 768px) {
+.foot_mbl{display: none;}
+}
+@media only screen and (max-width: 767px) {
+.footr_wrappr{display: none}
+.foot_mbl {background: rgba(0,0,0, .08);color: #000;font-size: 12px;}
+.subscribe-main {background: #041e3b;float: left;padding: 15px;width: 100%;margin-top: 20px;}
+.subscribe-main .foot-subscribe-box {float: left;width: 100%;}
+.foot-subtitle {color: #fff;font-size: 14px;font-weight: 400;letter-spacing: 0.5px;font-family: 'Roboto', sans-serif;}
+.foot-subscribe-box .subs_eml{ width: 100%; }
+.foot-subscribe-box .subs_eml .inp_eml{padding: 7px 10px; outline: none; border:0px;  width:calc(100% - 85px); }
+.foot-subscribe-box .subs_eml button{padding:7px 15px; background: #FF690F; border:0px; outline: none;  font-weight: 700; color:#fff; }
+.link_sec_ftr {margin-bottom: 15px;padding-left: 15px;float: left;width: 100%;text-align: center;}
+.link_sec_ftr .scl_logo ul {margin: 0;padding: 0;margin-top: 10px;text-align: center;display: inline-block;}
+.link_sec_ftr .scl_logo ul li {list-style: none;margin-right: 10px;position: relative;display: inline-block;}
+.link_sec_ftr .scl_logo ul li a {display: inline-block;background-color: #fff;color: #083d77;border-radius: 15px;height: 30px;width: 30px;transition: ease all .5s;}
+.link_sec_ftr .scl_logo ul li a.fb {background-color: #3b5998;background-position: -38px -15px;}
+.link_sec_ftr .scl_logo ul li a.tw {background-color: #1da1f2;background-position: -64px -14px;}
+.link_sec_ftr .scl_logo ul li a.ig {background-color: #d92e7f;background-position: -145px -15px;}
+.link_sec_ftr .scl_logo ul li a.gp {background-color: #dd4b39;background-position: -92px -15px;}
+.bk_wt_con {text-align: center;position: relative;}
+.bk_wt_con h3 {background: #083d77;display: inline-block;font-size: 12px;color: #fff;margin: 0;position: relative;z-index: 2;padding: 5px 10px;text-transform: uppercase;}
+.bk_wt_con span {width: 100%;height: 1px;background: #083d77;display: inline-block;position: absolute;left: 0;top: 12px;z-index: 1;}
+.bk_wt_wrppr .trst_logos {width: 100%;display: inline-block;text-align: center;}
+.bk_wt_wrppr .trst_logos ul {margin: 0;padding: 0;margin-top: 15px;}
+.bk_wt_wrppr .trst_logos ul li {list-style: none;display: inline-block;float: none;text-align: center;border-radius: 2px;margin-right: 10px;margin-bottom: 10px;background: #fff;}
+.bk_wt_wrppr .trst_logos ul li a {margin-bottom: -4px;margin-top: -1px;}
+.bk_wt_wrppr .trst_logos ul li a.iata {height: 26px;width: 38px;background-position: -1px -139px;display: inline-block;}
+.bk_wt_wrppr .trst_logos ul li a.arc {height: 26px;width: 48px;background-position: -51px -139px;display: inline-block;}
+.bk_wt_wrppr .trst_logos ul li a.nrtn {height: 26px;width: 48px;background-position: -112px -139px;display: inline-block;}
+.bk_wt_wrppr .trst_logos ul li a.paypal {height: 26px;width: 64px;background-position: -168px -139px;display: inline-block;}
+.bk_wt_wrppr .trst_logos ul li a.visa {height: 26px;width: 41px;background-position: -241px -139px;display: inline-block;}
+.bk_wt_wrppr .trst_logos ul li a.mastercard {height: 26px;width: 49px;background-position: -295px -139px;display: inline-block;}
+.bk_wt_wrppr .trst_logos ul li a.amrcnExprss {height: 26px;width: 49px;background-position: -351px -139px;display: inline-block;}
+.bk_wt_wrppr .trst_logos ul li a.discvr {height: 26px;width: 49px;background-position: -408px -139px;display: inline-block;}
+.fotoerHeight {height: 76px;}
+.call_icon_mbl_ind {width: 100%;position: fixed;bottom: 0px;z-index: 100;display: table;background: #041e3b;}
+.call_icon_mbl_ind .flt_fx_strip {text-align: center;background: #083d77;color: #fff;padding: 5px 0px;letter-spacing: 1px;}
+.call_icon_mbl_ind p {margin: 0px;width: calc(100% - 110px);color: #fff;font-size: 20px;padding: 0px 5px;vertical-align: middle;font-weight: 700;float: left;margin-top: 4px;text-align: center;}
+.call_icon_mbl_ind p a {text-decoration: none;color: #fff; margin-top: 6px;display: inline-block;}
+.call_icon_mbl_ind p a span {width: 28px;height: 28px;display: inline-block;}
+.call_icon_mbl_ind p a span img {width: 100%;    position: relative;top: -3px;}
+.call_icon_mbl_ind .cl_nw {background: #FF690F;color: #fff;display: inline-block;padding: 9px 5px;vertical-align: middle;font-weight: 700;font-size: 20px;text-align: center;width: 110px;}
+.call_icon_mbl_ind .cl_nw a {text-decoration: none;color: #fff;}
+
+}
+
+
+@media only screen and (max-width: 575px) {
+    .call_icon_mbl_ind p a {font-size: 15px;}
+    .call_icon_mbl_ind .cl_nw a {font-size: 15px}
+    .call_icon_mbl_ind p{width: calc(100% - 87px);}
+.call_icon_mbl_ind .cl_nw{padding: 4px 0px;font-size: 20px;width: 87px;}
+
+}
+
+
+
+
+
+
+

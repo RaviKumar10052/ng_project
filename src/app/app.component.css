@@ -1,0 +1,24 @@
+.bnnr_outr_box {background: url(../assets/images/profile-image-bg-desktop.jpg) no-repeat center center!important;background: #022243;height: 160px;margin: 0 auto;}
+.bnnr_nav_txt{margin-top:-100px;}
+.bnnr_nav_txt .membr_head{color:#fff;}
+.bnnr_nav_txt .member_contant{background:#fff; float: left; padding: 15px 0px;}
+.member_contant{width: 100%;}
+.member_contant ul {margin:0px; padding: 0px; margin-bottom:15px;}
+.member_contant ul li{width: 20%; float: left; text-align: center; list-style: none;}
+.member_contant ul li p{margin: 0px;}
+.member_contant ul li a{text-decoration: none; color:#083d77; display: block; padding-bottom: 10px; font-weight: 700;}
+.member_contant ul li a.active {border-bottom:3px solid #083d77;}
+.member_contant ul li a.mytrip {border-bottom:3px solid #083d77;}
+.member_contant ul li a i{font-size: 40px;}
+
+
+
+@media only screen and (max-width: 767px) {
+    .member_contant ul li a span{display: none;}
+
+}
+@media only screen and (max-width: 575px) {
+    .member_contant ul li a i{font-size: 30px;}
+    .member_contant ul {margin-bottom:10px;}
+    .bnnr_nav_txt .membr_head h3{font-size: 20px;}
+}

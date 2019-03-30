@@ -1,0 +1,56 @@
+.trvl_pref_wrpppr .hd_pref{margin-bottom: 10px;}
+.trvl_pref_wrpppr .hd_pref h1{margin: 0px; font-size: 18px; color:#083d77}
+.trvl_pref_wrpppr .cont_pref .inp_lft_box{width:calc(50% - 10px); margin-right: 10px; border:1px solid #ddd; float: left; margin-bottom: 15px; }
+.cont_pref .inp_lft_box  label{width:135px; background: #eeeeee; padding: 7px 10px; margin: 0px;}
+.cont_pref .inp_lft_box .inpt_type{width:calc(100% - 135px);  outline: none; border: none;padding: 7px 10px; }
+.trvl_pref_wrpppr .cont_pref .inp_rgt_box{width:calc(50% - 10px); margin-left: 10px; border:1px solid #ddd; float: left; margin-bottom: 15px;}
+.cont_pref .inp_rgt_box  label{width:135px; background: #eeeeee; padding: 7px 10px; margin: 0px;}
+.cont_pref .inp_rgt_box .inpt_type{width:calc(100% - 135px);  outline: none; border: none; padding: 7px 10px; }
+.cont_pref .inp_rgt_box  .add_btn{width:100%; padding: 6px 10px; text-align: center;   border:none; border: 0px solid #ddd; background: #333 ; color:#fff; outline: none; font-weight: 700; }  
+.savInfoBtn{text-align:right;}
+.savInfoBtn .btn_sav{ background: linear-gradient(169deg, #ff833c 22%, #f30 100%) repeat scroll 0 0 transparent; border:none; outline: none; padding:7px 15px; color:#fff; font-weight: 700; }
+@media only screen and (max-width: 767px) {
+.trvl_pref_wrpppr .hd_pref h1{font-size: 15px; font-weight: 700;}
+.trvl_pref_wrpppr .cont_pref .inp_lft_box{width:100%; margin-right: 0px;}
+.cont_pref .inp_lft_box  label{font-size: 13px; padding: 7px;width: 110px;}
+.cont_pref .inp_lft_box .inpt_type{font-size: 13px; padding: 7px; width: calc(100% - 110px);}
+.cont_pref .inp_rgt_box  label{font-size: 13px; width: 110px;}
+.trvl_pref_wrpppr .cont_pref .inp_rgt_box{width:100%; margin-left:0px;}
+.cont_pref .inp_rgt_box .inpt_type{width:calc(100% - 110px); font-size: 13px; }
+.savInfoBtn .btn_sav{width: 100%;}
+.cont_pref .inp_rgt_box  .add_btn{font-size: 13px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

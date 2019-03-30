@@ -1,0 +1,119 @@
+.cred_crd_wrpr .crdt_crd_info{margin-bottom: 10px; float: left;}
+.crdt_crd_info .crd_lft{width:calc(50% - 10px); float: left; margin-right: 10px; }
+.crdt_crd_info .crd_lft .hd h3{margin:0px; font-size: 18px;}
+.crdt_crd_info .trst_logos {width:calc(50% - 10px); float: left;}
+.crdt_crd_info .trst_logos ul {margin: 0;padding: 0; }
+.crdt_crd_info .trst_logos ul li {list-style: none;display: inline-block;float: none;text-align: center;border-radius: 2px;margin-right: 10px;margin-bottom: 10px;background: #fff;}
+.crdt_crd_info .trst_logos ul li a {margin-bottom: -4px;margin-top: -1px;}
+.crdt_crd_info .trst_logos ul li a.paypal {height: 26px;width: 64px;background-position: -168px -139px;display: inline-block;}
+.crdt_crd_info .trst_logos ul li a.visa {height: 26px;width: 41px;background-position: -241px -139px;display: inline-block;}
+.crdt_crd_info .trst_logos ul li a.mastercard {height: 26px;width: 49px;background-position: -295px -139px;display: inline-block;}
+.crdt_crd_info .trst_logos ul li a.amrcnExprss {height: 26px;width: 49px;background-position: -351px -139px;display: inline-block;}
+.crdt_crd_info .trst_logos ul li a.discvr {height: 26px;width: 49px;background-position: -408px -139px;display: inline-block;}
+.crdt_crd_info .crd_numb{width: calc(50% - 10px); margin-right: 10px; border:1px solid #ddd; float: left;  }
+.crdt_crd_info .crd_numb label{width: 120px; background: #eee; padding:7px 10px; margin:0px;}
+.crdt_crd_info .crd_numb .inp_bx{width: calc(100% - 120px);  padding: 7px 10px; border:0px; outline: none;    }
+.crdt_crd_info .mnth_yr{width: calc(50% - 10px); margin-right: 10px;  float: left; margin-top:15px;  }
+.crdt_crd_info .mnth_yr label{width: 120px; background: #eee; padding:7px 10px; margin:0px;}
+.crdt_crd_info .mnth_yr .mnt{width:calc(100% - 120px); padding: 7px 10px; border:none; outline: none;   }
+.crdt_crd_info .mnth_yr .yr{width:30%; border:1px solid #ddd; padding: 7px 10px; }
+.crdt_crd_info .mnth_yr .bx_mntyr{border:1px solid #ddd; float: left; width:calc(70% - 10px); margin-right: 10px;}
+.bllng_addr {float: left;}
+.bllng_addr .hd{width:100%;}
+.bllng_addr .hd h3{margin: 0px; font-size: 18px; color:#083d77;}
+.bllng_addr .rdo_btn{margin:10px 0px;}
+.bllng_addr .rdo_btn ul{margin: 0px; padding: 0px;}
+.bllng_addr .rdo_btn ul li{float: left; list-style: none; margin-right: 15px;}
+
+
+
+.cred_crd_wrpr .eml_hd{margin-bottom: 10px; clear: both; float: left;}
+.cred_crd_wrpr .eml_hd h2{margin:0px; font-size: 20px; color:#083d77}
+.cred_crd_wrpr .eml_cont{width: 100%;  margin-bottom: 20px;  float: left;  }
+.cred_crd_wrpr .eml_cont .eml_box{width: calc(50% - 10px); margin-right: 10px;   float: left;border:1px solid #ddd;}
+.cred_crd_wrpr .eml_cont .eml_box label{background: #eee; padding: 7px 10px; margin-bottom: 0px; width: 120px;  }
+.cred_crd_wrpr .eml_cont .eml_input{ border:none; outline:none; padding: 7px 10px; width:calc(100% - 120px); background: #fff;}
+.cred_crd_wrpr .eml_cont .eml_box_r{width: calc(50% - 10px); margin-left: 10px;   float: left;border:1px solid #ddd;}
+.cred_crd_wrpr .eml_cont .eml_box_r label{background: #eee; padding: 7px 10px; margin-bottom: 0px; width: 120px;  }
+.cred_crd_wrpr .eml_cont .eml_box_r .eml_input{ border:none; outline:none; padding: 7px 10px; width:calc(100% - 120px);}
+.cred_crd_wrpr .yellBox{border: 1px solid #ffdfa8;background: #fff9e5;padding: 10px;font-size: 12px;color: #7c818d; clear: both; margin-bottom: 15px;}
+.cred_crd_wrpr .yellBox p{margin: 0px; text-align:justify;}
+.savInfoBtn{text-align:right;}
+.savInfoBtn .btn_sav{ background: linear-gradient(169deg, #ff833c 22%, #f30 100%) repeat scroll 0 0 transparent; border:none; outline: none; padding:7px 15px; color:#fff; font-weight: 700; }
+@media only screen and (max-width: 767px) {
+    .crdt_crd_info .crd_lft{width:100%; margin-right: 0px; margin-bottom:10px;} 
+    .crdt_crd_info .trst_logos {width:100%;}
+    .crdt_crd_info .crd_lft .hd h3{font-size: 15px;}
+    .crdt_crd_info .crd_numb{width:100%; margin-right:0px; margin-bottom: 10px;}
+    .crdt_crd_info .crd_numb label{width: 70px; padding: 7px; font-size: 13px;}
+    .crdt_crd_info .crd_numb .inp_bx{padding: 7px; font-size: 13px;}
+    .crdt_crd_info .mnth_yr{width:100%; margin-right: 0px; margin-top: 0px;}
+    .crdt_crd_info .mnth_yr label{font-size: 13px; padding: 7px; width: 80px;}
+
+    .crdt_crd_info .mnth_yr .mnt{font-size: 13px; padding: 7px;     width: calc(100% - 80px);}
+
+    .crdt_crd_info .mnth_yr .yr{padding: 7px; font-size: 13px;}
+    .cred_crd_wrpr  .bllng_addr .hd h3{font-size: 15px; font-weight: 700; }
+    .crdt_crd_info .mnth_yr .bx_mntyr{font-size: 15px;}
+    .bllng_addr .rdo_btn{font-size: 13px;}
+    .radio_wraprr input[type="radio"] ~ span::after{top:3px;}
+    .radio_wraprr input[type="radio"]:checked ~ span::before{top:7px;}
+    .cred_crd_wrpr .eml_cont{margin-bottom: 10px;}
+    .cred_crd_wrpr .eml_cont .eml_box{width:100%; margin-right: 0px;}
+    .cred_crd_wrpr .eml_cont .eml_box label{width:85px; font-size: 13px; padding: 7px;}
+    .cred_crd_wrpr .eml_cont .eml_input{ width:calc(100% - 85px); font-size: 13px;}
+    .cred_crd_wrpr .eml_cont .eml_box_r{width:100%; margin-left: 0px; margin-top: 15px;}
+    .cred_crd_wrpr .eml_cont .eml_box_r label{font-size: 13px; width: 85px; padding: 7px;}
+    .cred_crd_wrpr .eml_cont .eml_box_r .eml_input{width:calc(100% - 85px);}
+    .savInfoBtn .btn_sav{width:100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

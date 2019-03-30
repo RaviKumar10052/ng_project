@@ -1,0 +1,171 @@
+.nav_wrap_main {background: #083d77;color: #fff;box-shadow: 0 0 5px 1px rgba(204,204,204,1);padding: 0px;font-family: "Roboto", sans-serif;}
+.nav_wrap_main .nav_wrap {padding: 0px 0px;}
+.nav_wrap .nav_lft {float: left;}
+.nav_wrap .nav_lft .logo_link {width: 150px;float: left;}
+.nav_wrap .nav_lft .logo_link a {display: block;margin-top: 4px;}
+.nav_wrap .nav_lft .logo_link a img {width: 100%;}
+.nav_wrap .nav_lft .nav_link {float: left;margin-left: 20px;}
+.nav_lft .nav_link ul {margin: 0px;padding: 0px;}
+.nav_lft .nav_link ul li {list-style: none;float: left;height: 45px;padding-top: 23px;margin-left: 30px;position: relative;cursor: pointer;}
+.nav_lft .nav_link ul li a {display: inline-block;text-decoration: none;color: #fff;padding: 0px 5px;font-size: 16px;font-weight: bold;}
+.nav_lft .nav_link ul li.active:after, .nav_lft .nav_link ul li:hover:after {position: absolute;content: "";height: 1px;bottom: -6px;display: inline-block;width: 100%;border: 1.5px solid #FF690F;left: 0px;}
+.nav_wrap .nav_rgt {float: right;}
+.nav_rgt .nav_tfn {float: left;line-height: 20px;margin-top: 3px;}
+.nav_rgt .nav_tfn span {color: #fff;font-size: 10px;}
+.nav_rgt .nav_tfn a {font-size: 24px;display: block;color: #fff;font-weight: 700;text-decoration: none;}
+.icon_user {width: 50px;height: 50px;float: right;padding: 7px;margin-left: 10px;cursor: pointer;}
+.icon_user img {width: 100%;}
+
+
+@media only screen and (min-width: 767px) {
+.height_header, .header_main_wrap{display: none;}
+}
+@media only screen and (max-width: 767px) {
+.nav_wrap_main{display: none;}
+
+.header_main_wrap {
+    width: 100%;
+    z-index: 10002;
+    position: fixed;
+    padding: 5px 0px;
+    background: #083d77;
+    display: block;
+    -webkit-box-shadow: 2px 3px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 20px -7px rgba(0,0,0,0.75);
+}
+.header_main_wrap .header_cont {
+    position: relative;
+}
+.header_cont .head_logo_main {
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+}
+.header_cont .head_logo_main img {
+    width: 100%;
+}
+.header_cont .menu_callIcon {
+    float: right;
+    margin-top: 15px;
+}
+.header_cont .call_icon {
+    float: left;
+    margin-right: 10px;
+}
+.header_cont .call_icon a {
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 700;
+    background: #FF690F;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 10px;
+    white-space: nowrap;
+}
+.header_cont .menu_icon {
+    width: 22px;
+    height: 22px;
+    float: left;
+}
+.header_cont .menu_icon i {
+    font-size: 25px;
+    color: #fff;
+}
+#bar_icon_mbl {
+    display: none;
+}
+.header_cont .nav_mbl {
+    left: 0;
+    display: none;
+    width: 100%;
+    position: relative;
+    background: rgba(8,61,119,.9);
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 60px 30px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+}
+.header_cont .nav_mbl ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.header_cont .nav_mbl ul li {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.header_cont .nav_mbl ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+}
+.cls_nav_mbl {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    top: 20px;
+}
+.cls_nav_mbl img {
+    width: 100%;
+}
+.height_header {
+    height: 48px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

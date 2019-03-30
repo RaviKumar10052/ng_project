@@ -1,0 +1,220 @@
+.eml_wrpr .eml_hd h3{font-size: 18px; font-weight: 700; color:#083d77}
+.eml_wrpr .eml_box{width: 50%; background: #eee;  border:1px solid #ddd; }
+.eml_wrpr .eml_box label{padding: 7px 10px;margin-bottom: 0px;width: 120px;}
+.eml_wrpr .eml_box .int_eml{  background:none; border: none;outline: none; padding: 7px 10px;width: calc(100% - 120px);}
+.line_diff{margin: 15px 0px;}
+.eml_wrpr .add_loc{margin-bottom: 15px; float: left;}
+.add_loc .ad_f_box_l{width: calc(50% - 20px); margin:0px 10px; border:1px solid #ddd;  margin-top: 15px; float: left;  }
+.add_loc .ad_f_box_l:nth-child(even){margin-right: 0px;}
+.add_loc .ad_f_box_l:nth-child(odd){margin-left: 0px;}
+.add_loc .ad_f_box_l label{background: #eee; padding: 7px 10px; margin-bottom:0px; width: 100px; }
+.add_loc .ad_f_box_l label i{margin-right: 5px; font-size: 18px;}
+.add_loc .ad_f_box_l input{width: calc(100% - 100px); padding: 7px 10px; outline: none; border: 0px;}
+.sav_loc{background: #f7f7f7; padding: 10px; }
+.sav_loc .sv_lc_in{border: 1px solid #ddd;}
+.sav_loc .sv_lc_in label{width: 131px; padding: 7px 10px; background: #eee; margin: 0px; }
+.sav_loc .loc_inp{width:calc(100% - 261px); padding: 7px 10px; border: none; outline: none;}
+.sav_loc .btn_sav_loc{background: #aaa;padding: 7px;width: 130px;text-align: center;outline: none;border: none;font-weight: 700;color: #fff;}
+.savInfoBtn{text-align:right;}
+.savInfoBtn .btn_sav{ background: linear-gradient(169deg, #ff833c 22%, #f30 100%) repeat scroll 0 0 transparent; border:none; outline: none; padding:7px 15px; color:#fff; font-weight: 700; }
+
+
+@media only screen and (max-width: 767px) {
+
+    .eml_wrpr .eml_hd h3{font-size: 15px;}
+    .eml_wrpr .eml_box{width: 100%;}
+    .line_cont p{font-size: 13px;}
+    .check_wrappr {font-size: 13px;}
+    .add_loc .ad_f_box_l{ margin: 10px 0px 0px 0px; width: 100%;}
+    .add_loc .ad_f_box_l label{padding: 7px; font-size: 13px;}
+    .add_loc .ad_f_box_l input{padding: 7px; font-size: 13px;}
+    .sav_loc .sv_lc_in{border:0px;}
+    .sav_loc .sv_lc_in label{font-size: 13px; width:110px;}
+    .sav_loc .loc_inp{width:calc(100% - 110px); border:1px solid #ddd; padding: 6px 10px; font-size: 13px;}
+
+    .sav_loc .btn_sav_loc{font-size: 15px; width: 100%; margin-top: 15px;}
+
+    .savInfoBtn .btn_sav{width:100%;}
+
+
+
+
+}
+
+@media only screen and (max-width: 575px)
+{
+    .add_loc .ad_f_box_l label{width: 75px;}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

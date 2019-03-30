@@ -1,0 +1,27 @@
+.mysetng_wrppr{width:100%; background:#efefef; float: left;}
+.mysetng_wrppr .settng_lft_pnl {width:20%; background: #ffffff; float: left; }
+.mysetng_wrppr .settng_lft_pnl ul{margin: 0px; padding: 0px;}
+.mysetng_wrppr .settng_lft_pnl ul li{list-style: none;}
+.mysetng_wrppr .settng_lft_pnl ul li a{text-decoration: none;  color: #083d77; padding: 7px 10px; display: block; border-bottom: 1px solid #ddd;}
+.mysetng_wrppr .settng_lft_pnl ul li:first-child a{border-top:1px solid #ddd;   }
+.mysetng_wrppr .settng_lft_pnl ul li a:hover, .mysetng_wrppr .settng_lft_pnl ul li a.active{background: #fff; font-weight: 700;}
+.mysetng_wrppr .settng_cont {width:80%;  float: left; padding:0px 10px; background: #fff; }
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .mysetng_wrppr{background: #fff;}
+    .mysetng_wrppr .settng_lft_pnl {width:100%;  float: left; }
+    .mysetng_wrppr .settng_lft_pnl li{float: left; }
+    .mysetng_wrppr .settng_lft_pnl ul li a{border-top: 0px; border-bottom: 0px; font-size: 12px; padding: 0px 10px; border-right:1px solid #ddd; }
+    .mysetng_wrppr .settng_lft_pnl ul li:first-child a{border-top: 0px; border-bottom: 0px;  }
+    .mysetng_wrppr .settng_lft_pnl ul li:last-child a{border-right:0px;}
+    .mysetng_wrppr .settng_cont{width: 100%; padding: 10px ;}
+
+
+
+}
